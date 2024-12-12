@@ -1,11 +1,17 @@
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
-import Exemple1 from './src/Core/Exemples/Exemple1';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import SimpleScrollView from './src/Core/components/SimpleScrollView';
+import SimpleView from './src/Core/components/SimpleView';
+import SimpleTextView from './src/Core/components/SimpleTextView';
+import SimpleFlatList from './src/Core/components/SimpleFlatList';
 
 export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Exemple1/>
+      {/* <SimpleView/> */}
+      {/* <SimpleTextView/> */}
+      {/* <SimpleScrollView/> */}
+      <SimpleFlatList/>
     </SafeAreaView>
   );
 }
