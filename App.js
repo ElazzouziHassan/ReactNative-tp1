@@ -3,15 +3,17 @@ import SimpleScrollView from './src/Core/components/SimpleScrollView';
 import SimpleView from './src/Core/components/SimpleView';
 import SimpleTextView from './src/Core/components/SimpleTextView';
 import SimpleFlatList from './src/Core/components/SimpleFlatList';
+import SimpleSectionList from './src/Core/components/SimpleSectionList';
 
 export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* <SimpleView/> */}
+      <SimpleView/>
       {/* <SimpleTextView/> */}
       {/* <SimpleScrollView/> */}
-      <SimpleFlatList/>
+      {/* <SimpleFlatList/> */}
+      <SimpleSectionList/>
     </SafeAreaView>
   );
 }
