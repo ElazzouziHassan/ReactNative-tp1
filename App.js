@@ -1,9 +1,9 @@
 import { SafeAreaView, StyleSheet } from 'react-native';
-import SimpleScrollView from './src/Core/components/SimpleScrollView';
-import SimpleView from './src/Core/components/SimpleView';
-import SimpleTextView from './src/Core/components/SimpleTextView';
-import SimpleFlatList from './src/Core/components/SimpleFlatList';
-import SimpleSectionList from './src/Core/components/SimpleSectionList';
+import SimpleScrollView from './src/Core/components/PART_1/SimpleScrollView';
+import SimpleView from './src/Core/components/PART_1/SimpleView';
+import SimpleTextView from './src/Core/components/PART_1/SimpleTextView';
+import SimpleFlatList from './src/Core/components/PART_1/SimpleFlatList';
+import SimpleSectionList from './src/Core/components/PART_1/SimpleSectionList';
 
 export default function App() {
 
