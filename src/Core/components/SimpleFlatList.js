@@ -10,8 +10,12 @@ function SimpleFlatList() {
 
   return (
     <View>
-      <Text style={{textAlign:'center', marginTop:30, fontWeight:'bold', padding:50, fontSize:20}}>Simple Flat List Example</Text>
-       <FlatList
+      <Text 
+        style={{textAlign:'center', marginTop:30, fontWeight:'bold', padding:50, fontSize:20}}
+      >
+        Simple Flat List Example
+      </Text>
+      <FlatList
         data={tab}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => <Text style={styles.item}>{item.name}</Text>}
