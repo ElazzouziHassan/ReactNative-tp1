@@ -3,7 +3,7 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 function SimpleTextView() {
   return (
     <View style={styles.textInputContainer}>
-      <Text style={styles.text1}>Enter Text Below:</Text>
+      <Text style={styles.text1}>Input Text Field :</Text>
       <TextInput
         style={styles.textInput}
       />
