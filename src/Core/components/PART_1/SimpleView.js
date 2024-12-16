@@ -5,10 +5,10 @@ function SimpleView() {
     <>
       <View style={styles.viewWithImage}>
       <Text style={styles.text1}>Welcome to React Native!</Text>
-        <Image
-          source={require('../../../assets/reactnative.jpg')}
+        {/* <Image
+          source={require('../../../../assets/reacnative.jpg')}
           style={styles.image}
-        />
+        /> */}
       <Text style={styles.text2}>simple view in react native with an Image</Text>
       </View>
     </>
